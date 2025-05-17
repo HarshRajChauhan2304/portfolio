@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: hsl(38, 54%, 79%);
+    color: #222;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b2b2b;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logo span {
+    color: #ff5e00;
+  }
+  
+  .navbar nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .contact-btn {
+    background: white;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 8%;
+  }
+  
+  .intro {
+    max-width: 50%;
+  }
+  
+  .greeting {
+    font-size: 1.2rem;
+  }
+  
+  .highlight {
+    color: #ff5e00;
+  }
+  
+  .desc {
+    color: #666;
+    margin: 1rem 0 2rem;
+    max-width: 500px;
+  }
+  
+  .btn-group .btn {
+    padding: 0.8rem 1.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .black {
+    background: #000;
+    color: white;
+  }
+  
+  .orange {
+    background: #ff5e00;
+    color: white;
+  }
+  
+  .photo img {
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  .services {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #a020f0;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  
+  .section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #a020f0;
+    margin: 10px auto 0;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .service-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .service-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    background: linear-gradient(45deg, #ff5edf, #04c8de);
+    color: #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-box h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-box p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .service-box a {
+    text-decoration: none;
+    color: #a020f0;
+    font-weight: bold;
+  }
+  #contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #contact input,
+  #contact textarea {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  #contact button {
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  .footer-links a,
+  .social-icons a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
